@@ -19,7 +19,6 @@ double[] GetArrayDouble(int size, int rank)
     double[] res = new double[size];
     for (int i = 0; i < res.Length; i++)
     {
-        //res[i] = new Random().Next(minValue, maxValue + 1);
         res[i] = GetDoubleRandom(rank);
     }
 
